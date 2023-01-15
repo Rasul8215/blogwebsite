@@ -16,5 +16,5 @@ var postinput={
     }
     posts.push(postinput)
     localStorage.setItem("postinput",JSON.stringify(posts))
-    location.href="/"
+    location.href="./index.html"
 }
